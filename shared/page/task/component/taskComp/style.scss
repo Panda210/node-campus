@@ -1,0 +1,8 @@
+.taskEditButton {
+  height: 35px;
+}
+
+.taskEditButton  :global(.ant-btn){
+  position: absolute;
+  right: 10%;
+}

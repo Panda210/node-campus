@@ -1,0 +1,7 @@
+.singleUpload :global(.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-delete :last-child){
+    display: none
+}
+
+.singleUpload :global(.ant-upload-list-picture-card .ant-upload-list-item-actions ){
+    left: 60%
+}

@@ -1,0 +1,57 @@
+
+.wrapper {
+  display: flex;
+  height: 100%;
+
+  .logo {
+    height: 64px;
+    line-height: 64px;
+    box-sizing: border-box;
+    color: #fff;
+
+    > div {
+      padding-left: 16px;
+    }
+  }
+
+  .foldedLogo {
+    @extend .logo;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .unfoldedMenu {
+    @extend .logo;
+    font-size: 30px;
+  }
+
+  .menu {
+    height: 100vh;
+    overflow-y: auto;
+    background: #001529;
+  }
+
+  .unfoldedMenu {
+    @extend .menu;
+    width: 256px;
+  }
+
+  .foldedMenu {
+    width: 82px;
+    background: #001529;
+  }
+
+  
+
+  .content {
+    flex: 1;
+    height: 100vh;
+    padding: 0 10px 10px;
+    overflow-y: auto;
+    background: #f0f2f5;
+  }
+
+  .childenContent {
+    margin-top: 20px;
+  }
+}
