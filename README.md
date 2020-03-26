@@ -1,4 +1,4 @@
-#node-campus简易JIRA
+# node-campus简易JIRA
 
 ## 技术框架
 基于`react`的框架-`Funsee、Funsee Smart等相关框架`（架构师友人提供），具体可参考[Funsee Wiki](https://github.com/TheSecondLab/FunSee/wiki)。UI使用`antd`.
